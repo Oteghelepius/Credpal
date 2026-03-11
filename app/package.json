@@ -1,0 +1,20 @@
+
+{
+  "name": "devops-node-app",
+  "version": "1.0.0",
+  "description": "Simple Node.js service for DevOps assessment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "redis": "^4.6.7",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "jest": "^29.6.0",
+    "supertest": "^6.3.3"
+  }
+}
